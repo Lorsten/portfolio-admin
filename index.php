@@ -27,7 +27,7 @@ if(isset($_SESSION['user'])){
     <h1>Welcome, login to continue!</h1>
         <div class="row">
             <div class="col-8">
-    <form id="login" method="post" action="">
+    <form id="login" method="post">
         <div class="form-group">
           <label for="username">Username:</label>
           <input type="text" class="form-control" id="username" name="username">
