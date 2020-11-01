@@ -4,6 +4,9 @@
 
 ### User need to login in order to use this service
 
+### Change the url in the files if your which to use this website
+
+### this site is using bootstrap for the design
 
 
 #### Written by Olof Andersson
