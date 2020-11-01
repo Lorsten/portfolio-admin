@@ -159,7 +159,10 @@ function displayData(data, table) {
             }
             if (key.includes('url')) {
                 list.innerHTML += "<li class='mt-1 '><a href='" + data[count][key] + "'>Link</a></li>";
-            } else {
+            } else if(key.includes("institution")){
+                list.innerHTML += "<li class='mt-1 text-break'>" + key + ":" + data[count][key] + "</li>";
+            }
+            else {
                 list.innerHTML += "<li class='mt-1 '>" + key + ":" + data[count][key] + "</li>";
             }
 
